@@ -71,3 +71,13 @@ export const NORMAL_CONFESSION_LIMIT = 5;
  * Maximum daily confession limit per IP address (with password)
  */
 export const MAX_CONFESSION_LIMIT = 20;
+
+
+// ================================================
+// 👤 APP CONFIGURATION
+// ================================================
+
+/**
+ * Creator name - displayed in the app
+ */
+export const CREATOR_NAME = 'Vyapari Police Department';
