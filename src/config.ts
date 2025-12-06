@@ -52,3 +52,22 @@ export const GEMINI_API_KEYS = [
  * Options: 'gemini-2.0-flash-lite', 'gemini-1.5-flash', 'gemini-1.5-pro'
  */
 export const GEMINI_MODEL = 'gemini-2.0-flash-lite';
+
+// ================================================
+// 🔒 RATE LIMITING CONFIGURATION
+// ================================================
+
+/**
+ * Rate Limit Password - Allow users to exceed daily limit with password
+ */
+export const RATE_LIMIT_PASSWORD = process.env.RATE_LIMIT_PASSWORD || 'POLICECONFESSION123';
+
+/**
+ * Normal daily confession limit per IP address
+ */
+export const NORMAL_CONFESSION_LIMIT = 5;
+
+/**
+ * Maximum daily confession limit per IP address (with password)
+ */
+export const MAX_CONFESSION_LIMIT = 20;
