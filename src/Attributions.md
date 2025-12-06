@@ -1,3 +1,8 @@
-This Figma Make file includes components from [shadcn/ui](https://ui.shadcn.com/) used under [MIT license](https://github.com/shadcn-ui/ui/blob/main/LICENSE.md).
+# Attributions & Credits
 
-This Figma Make file includes photos from [Unsplash](https://unsplash.com) used under [license](https://unsplash.com/license).
+## Developer
+**Made by Anish Vyapari**
+
+## Libraries & Components
+- [shadcn/ui](https://ui.shadcn.com/) - Component library used under [MIT license](https://github.com/shadcn-ui/ui/blob/main/LICENSE.md)
+- [Unsplash](https://unsplash.com/) - Photos used under [Unsplash License](https://unsplash.com/license)
