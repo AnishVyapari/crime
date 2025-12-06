@@ -81,3 +81,18 @@ export const MAX_CONFESSION_LIMIT = 20;
  * Creator name - displayed in the app
  */
 export const CREATOR_NAME = 'Vyapari Police Department';
+
+/**
+ * Application name - displayed in the header
+ */
+export const APP_NAME = 'Enhance Police Confession Booth';
+
+/**
+ * Department name - displayed in the app
+ */
+export const DEPARTMENT_NAME = 'Vyapari Police Department';
+
+/**
+ * Application version
+ */
+export const APP_VERSION = 'v1.0.0';
