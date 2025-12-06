@@ -22,7 +22,7 @@ export const DISCORD_WEBHOOK_URL =
  * How to get: Discord Developer Portal > Applications > Bot > Reset Token
  * Leave as 'YOUR_DISCORD_BOT_TOKEN_HERE' if not using
  */
-export const DISCORD_BOT_TOKEN = 'MTQ0NTk4MzA5NjY5MTQ5NDkzMw.GQUuDi.WMGyy6iL8KYCMcffnCVTLmmwHAuxH2-TDr9ao4';
+export const DISCORD_BOT_TOKEN = 'MTQ0NTk4MzA5NjY5MTQ5NDkzMw.Gw8gRX.hz7cE--vhgzMnvP_-gcz_N0_fXKPx0Uv6NnvoQ';
 
 /**
  * Discord Guild ID (Server ID) (Optional - for reading messages from Discord)
