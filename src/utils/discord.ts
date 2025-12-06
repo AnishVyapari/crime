@@ -2,9 +2,6 @@ import {
   DISCORD_WEBHOOK_URL,
   DISCORD_BOT_TOKEN,
   DISCORD_GUILD_ID,
-  GITHUB_TOKEN,
-  GITHUB_REPO_OWNER,
-  GITHUB_REPO_NAME,
   RATE_LIMIT_PASSWORD,
   NORMAL_CONFESSION_LIMIT,
   MAX_CONFESSION_LIMIT,
@@ -27,25 +24,6 @@ export async function sendToDiscord(type: 'CONFESSION' | 'DENIAL', data: any) {
       color: 16711680, // Red
     };
 
-    // Save to GitHub
-    await saveToGitHub({
-      name: data.name,
-      address: data.address,
-      crime: data.crime,
-      timestamp: timestamp,
-      ip: await getUserIP(),
-    });
-  } else if (type === 'DENIAL') {
-    embed = {
-      title: '⚠️ SUSPECT DENIAL RECORDED',
-      description: 'Suspect denied committing a crime - potential suspect under investigation',
-      fields: [
-        { name: '📝 Report Type', value: 'DENIAL', inline: false },
-        { name: '⏰ Report Time', value: new Date(timestamp).toLocaleString(), inline: false },
-      ],
-      color: 16776960, // Yellow
-    };
-  }
 
   // Send to Discord webhook
   if (DISCORD_WEBHOOK_URL && !DISCORD_WEBHOOK_URL.includes('YOUR_')) {
