@@ -6,8 +6,6 @@ import { LawyerConsent } from './components/LawyerConsent';
 import { LawyerChat } from './components/LawyerChat';
 import { CrimesModal } from './components/CrimesModal';
 import { StatusMessage } from './components/StatusMessage';
-import { sendCompleteConfessionToDiscord } from './utils/discord';
-import { APP_NAME, DEPARTMENT_NAME, APP_VERSION, CREATOR_NAME } from './config';
 
 export interface ConfessionData {
   name: string;
